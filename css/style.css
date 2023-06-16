@@ -3,6 +3,11 @@
     /* font-family: 'Poppins', sans-serif; */
 
 }
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+}
+
 .header{
     /* border: 2px solid red; */
     display: flex;
@@ -121,10 +126,16 @@
     width: 550px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     text-align: center;
+    /* margin-top:30px; */
     /* background-color: yellow; */
     /* border: 2px solid red; */
+}
+
+#section2div1 p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .section2h1{
@@ -181,7 +192,10 @@
 
 #section2div3{
     height: 20%;
-    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* padding-top: px; */
     /* background-color: blue; */
     /* border: 2px solid green; */
 }
@@ -195,10 +209,13 @@
 
 .section2div3a{
     text-decoration: none;
+    height: 20px;
     color: black;
     padding: 15px;
     padding-left: 30px;
     padding-right: 30px;
+    margin: auto;
+    margin-top: 0px;
     background-color: #a77858;
 }
 
@@ -210,7 +227,7 @@
 }
 #section4{
     width: 100%;
-    height: 65vh;
+    height: 60vh;
     background-color: #4b5e39;
 }
 
@@ -315,3 +332,49 @@
 .section5div1div h2{
     padding-bottom: 20px;
 }
+
+#section4{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    flex-direction: column;
+}
+
+.section4h1{
+    color: white;
+    padding-top: 20px;
+    font-size: 30px;
+    
+}
+.section4p{
+    color: white;
+    font-family: 'New Rocker', cursive;
+    font-size: 20px;
+    
+}
+
+.section4div{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section4div pre{
+    color: rgb(132, 130, 130);
+    font-size: 30px;
+}
+
+.section4div pre span{
+    color: white;
+}
+.dwonarrow{
+    width: 8px;
+    height: 8px;
+}
+
+
+
+
+
