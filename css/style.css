@@ -12,7 +12,7 @@
 }
 
 .container{
-    max-width: 1300px;
+    max-width: 1350px;
     margin: auto;
 }
 
@@ -65,12 +65,12 @@
     margin: 10px;
 }
 
-.section1{
+.intro{
     width: 100%;
     height: 90vh;
 }
 
-.section1 img{
+.intro img{
     width: 100%;
     height: 100%;
 }
@@ -117,7 +117,7 @@
 
 
 
-.section2{
+.description{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -126,7 +126,7 @@
     justify-content: center;
 }
 
-#section2div1{
+#descriptiondiv1{
     height: 20%;
     margin: auto;
     width: 550px;
@@ -136,16 +136,16 @@
     text-align: center;
 }
 
-#section2div1 p{
+#descriptiondiv1 p{
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
 
-.section2h1{
+.descriptionh1{
     padding-bottom: 20px;
 }
 
-#section2div2{
+#descriptiondiv2{
     height: 60%;
     display: flex;
     width: 70%;
@@ -156,51 +156,51 @@
 }
 
 
-.section2div2div1{
+.descriptiondiv2div1{
     display: flex;
     flex-direction: column;
     max-width: 300px;
 }
-.section2div2div2{
+.descriptiondiv2div2{
     display: flex;
     flex-direction: column;
     max-width: 300px;
 }
-.section2div2div3{
+.descriptiondiv2div3{
     display: flex;
     flex-direction: column;
     max-width: 300px;
     
 }
 
-.section2div2h2{
+.descriptiondiv2h2{
     max-width: 300px;
     text-align: center;
     font-size: 15px;
     padding-bottom: 20px;
 }
-.section2div2p{
+.descriptiondiv2p{
     max-width: 200px;
     text-align: center;
     font-size: 12px;
     line-height: 18px;
 }
 
-#section2div3{
+#descriptiondiv3{
     height: 20%;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.section2div2img{
+.descriptiondiv2img{
     width: 200px;
     height: 200px;
     margin: auto;
     padding-bottom: 20px;
 }
 
-.section2div3a{
+.descriptiondiv3a{
     text-decoration: none;
     height: 20px;
     color: black;
@@ -212,20 +212,20 @@
     background-color: #a77858;
 }
 
-#section3{
+#detail{
     width: 100%;
     height: 90vh;
     background-color: #eadfce;
     display: flex;
 }
-#section4{
+#carousel{
     width: 100%;
     height: 60vh;
     background-color: #4b5e39;
 }
 
 
-#section3div1{
+#detaildiv1{
     width: 50%;
     height: 100%;
     display: flex;
@@ -233,7 +233,7 @@
     
     justify-content: center;
 }
-#section3div2{
+#detaildiv2{
     width: 50%;
     height: 100%;
     display: flex;
@@ -242,7 +242,7 @@
     
 }
 
-.section3div2div{
+.detaildiv2div{
     width: 60%;
     margin: auto;
     height: 400px;
@@ -252,22 +252,22 @@
     margin-left: 70px;
 }
 
-.section3div1img{
+.detaildiv1img{
     width: 450px;
     height: 450px;
     padding-left: 70px;
     
 }
 
-.section3div2h1{
+.detaildiv2h1{
     padding-bottom: 20px;
 }
 
-.section3div2p{
+.detaildiv2p{
     padding-bottom: 20px;
 }
 
-.section3div2a{
+.detaildiv2a{
     text-decoration: none;
     color: black;
     background-color: #a77858;
@@ -278,35 +278,35 @@
 
 }
 
-#section5{
+#about{
     width: 100%;
     height: 90vh;
     display: flex;
 }
 
-#section5div1{
+#aboutdiv1{
     width: 50%;
 
 }
-#section5div2{
+#aboutdiv2{
     width: 50%;
     display: flex;
     
     
 }
 
-.section5div2img{
+.aboutdiv2img{
     width: 450px;
     height: 450px;
     margin: auto;
     margin-left: 70px ;
 }
 
-#section5div1{
+#aboutdiv1{
     display: flex;
 }
 
-.section5div1div{
+.aboutdiv1div{
     width: 60%;
     margin: auto;
     height: 400px;
@@ -316,43 +316,43 @@
     margin-right: 70px;
 }
 
-.section5div1div h2{
+.aboutdiv1div h2{
     padding-bottom: 20px;
 }
 
-#section4{
+#carousel{
     display: flex;
     text-align: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.section4h1{
+.carouselh1{
     color: white;
     padding-top: 20px;
     font-size: 30px;
     
 }
-.section4p{
+.carouselp{
     color: white;
     font-family: 'New Rocker', cursive;
     font-size: 20px;
     
 }
 
-.section4div{
+.carouseldiv{
     height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.section4div pre{
+.carouseldiv pre{
     color: rgb(132, 130, 130);
     font-size: 30px;
 }
 
-.section4div pre span{
+.carouseldiv pre span{
     color: white;
 }
 .dwonarrow{
