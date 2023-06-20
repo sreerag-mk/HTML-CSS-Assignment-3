@@ -212,7 +212,7 @@
 
 .descriptiondiv3a{
     text-decoration: none;
-    height: 20px;
+    height: 50px;
     color: black;
     padding: 15px;
     padding-left: 30px;
@@ -276,13 +276,17 @@
 }
 
 .detaildiv2a{
+    margin-left: 0;
     text-decoration: none;
+    height: 50px;
     color: black;
-    background-color: #a77858;
-    max-width: 100px;
-    margin-top: 20px;
     padding: 15px;
     padding-left: 30px;
+    padding-right: 30px;
+    background-color: #a77858;
+    width:150px ;
+    margin-top: 20px;
+
 
 }
 
@@ -372,6 +376,9 @@
     animation: fade 2s ease-in 0s;
 }
 
+.aboutdiv1div p{
+    padding-bottom: 10px;
+}
 
 
 
