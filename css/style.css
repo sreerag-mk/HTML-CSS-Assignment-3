@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
 }
 
 @keyframes fade {
@@ -57,6 +58,15 @@
     margin: auto;
     display: flex;
     justify-content: space-evenly;
+}
+
+.nav3 img {
+    height: 50px;
+    width: 50px;
+}
+
+.nav3 a{
+    margin: auto;
 }
 
 .navitems{
