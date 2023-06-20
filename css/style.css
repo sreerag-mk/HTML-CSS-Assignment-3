@@ -45,7 +45,7 @@
 
 .nav1{
     margin: auto;
-    margin-left: 150px;
+    margin-left: 160px;
 }
 .nav2{
     margin: auto;
@@ -65,9 +65,23 @@
     margin: 10px;
 }
 
+.intro::before{
+    background: url('https://cdn.shopify.com/s/files/1/0002/1564/6211/files/recrop2.jpg?v=1614334222') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    z-index: -1;
+
+}
+
 .intro{
     width: 100%;
     height: 90vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .intro img{
@@ -76,10 +90,13 @@
 }
 
 .page1detail{
-    position: absolute;
-    top: 300px;
-    left: 150px;
+    /* top: 300px;
+    left: 150px; */
     width: 400px;
+    margin: auto;
+    justify-content: center;
+    margin-left: 150px;
+
     
 }
 
@@ -299,7 +316,7 @@
     width: 450px;
     height: 450px;
     margin: auto;
-    margin-left: 70px ;
+    margin-right: 150px;
 }
 
 #aboutdiv1{
@@ -307,13 +324,13 @@
 }
 
 .aboutdiv1div{
-    width: 60%;
+    width: 68%;
     margin: auto;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 70px;
+    margin-left: 150px;
 }
 
 .aboutdiv1div h2{
